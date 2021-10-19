@@ -17,12 +17,14 @@ public class Test {
 
   // 	test.testAdd(userAction);
     	test.testFindNumbers(userAction);
-//   	test.testFindNameById(userAction);
-  //	test.testFindUser(userAction);
-//    	test.testFindAll(userAction);
-//    	test.testFindMapUser(userAction);
-//    	test.testFindMapAll(userAction);
-    }
+/*
+     	test.testFindNameById(userAction);
+  	test.testFindUser(userAction);
+      	test.testFindAll(userAction);
+      	test.testFindMapUser(userAction);
+      	test.testFindMapAll(userAction);
+  */
+	}
     public UserAction getController(){
     	ApplicationContext context = 
         		new ClassPathXmlApplicationContext("config/applicationContext.xml");
